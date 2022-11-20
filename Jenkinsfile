@@ -12,7 +12,7 @@ pipeline {
         stage('Git checkout') {
             steps {
                 echo 'Cloning project codebase...'
-                git branch: 'main', url: 'https://github.com/cvamsikrishna11/airbnb-infrastructure.git'
+                git branch: 'main', url: 'https://github.com/Jacques-James/AWSERS2022-Terraform-CICD-Project.git'
                 sh 'ls'
             }
         }
