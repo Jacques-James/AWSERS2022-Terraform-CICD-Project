@@ -9,6 +9,6 @@ resource "aws_instance" "web" {
 #   }
 
   tags = {
-    Name = "airbnb-web-server-instance"
+    Name = "AWSers-web-server-instance"
   }
 }
